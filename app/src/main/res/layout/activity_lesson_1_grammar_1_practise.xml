@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_grammar_1_title_2"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer0"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer1"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer2"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer3"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer4"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question4"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer5"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer6"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer7"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer8"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question8"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer9"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question9"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer10"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question10"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer11"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question11"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer12"
+            android:textAlignment="center"
+            />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question12"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer13"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question13"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer14"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question14"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer15"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question15"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer16"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question16"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer17"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question17"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer18"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer19"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question19"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer20"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer21"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question21"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer22"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question22"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer23"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question23"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer24"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question24"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer25"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question25"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer26"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question26"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer27"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question27"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer28"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question28"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer29"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question29"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer30"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question30"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer31"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question31"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <TableRow android:padding="2dp">
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/l1_g1_answer32"
+            android:textAlignment="center"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l1_g1_question32"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </TableRow>
+    <Button
+        android:text="@string/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="Check_L1_grammar_1"/>
+
+</TableLayout>
+</ScrollView>

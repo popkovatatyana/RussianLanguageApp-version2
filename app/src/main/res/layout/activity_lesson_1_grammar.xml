@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson_1_grammar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.popkova.russianlanguageapp.Lesson1.Lesson_1_grammar_1">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/L1grammar1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/grammar_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:text="@string/l1_g1_description1"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:id="@+id/descriprion1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/l1_g1_t1"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="@string/l1_g1_description2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/descriprion2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:text="@string/l1_g1_description3"
+            android:layout_width="368dp"
+            android:layout_height="20dp"
+            android:id="@+id/descriprion3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+        <TextView
+            android:text="@string/l1_g1_description4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/descriprion4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/l1_g1_description5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/descriprion5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:text="@string/l1_g1_description6"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/descriprion6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_weight="0.42"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:text="@string/l1_g1_description7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/descriprion7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:text="Go to practise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="l1_g1_practise"/>
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

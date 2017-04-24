@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">RITM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="greeting">Log in or register</string>
+    <string name="start">Let\'s go!</string>
+    <string name="check">check</string>
+    <string name="grammar">Grammar practise</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login">Log in</string>
+    <string name="register">Not registered yet? Click here!</string>
+    <string name="email">Write your e-mail here</string>
+    <string name="password">Password</string>
+    <string name="registerHint">Don\'t have an account? Click here and register!</string>
+    <string name="registrationDescription">Please, fill the information below</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="age">Age</string>
+    <string name="accountCreation">Create an account</string>
+    <string name="logout">Log out</string>
+    <string name="main_page">Main page</string>
+    <string name="finish">Finish</string>
+    <string name="topic1">Давайте познакомимся!</string>
+    <string name="l1_grammar_1_title_1" />
+    <string name="L1grammar1_title">Gender</string>
+    <string name="NB">NB!</string>
+    <string name="l1_g1_description1">All nouns in Russian have gender: they are either masculine, feminine or neuter:</string>
+    <string name="l1_g1_description2">•\tSome animate nouns (including familiar forms of first names) that end in - а or - я are masculine.</string>
+    <string name="l1_g1_description3">Он папа/дедушка/Коля</string>
+    <string name="l1_g1_description4">but \t Она мама/бабушка/Маша</string>
+    <string name="l1_g1_description5">•\tGender is not reflected, however, in the plural: они (they) is used for all genders. – ы and – и are two common endings for plural:</string>
+    <string name="l1_g1_description6">Джинсы -ы \t Очки - и</string>
+    <string name="l1_g1_description7">•\tBe aware of such neuter nouns which have –я ending: время, имя, пламя, племя etc.</string>
+    <string name="l1_grammar_1_title_2">Write он before the masculine nouns, она before the feminine nouns, оно before the neuter nouns, and они before the plural nouns.</string>
+    <string name="l1_g1_question0">весы</string>
+    <string name="l1_g1_question1">волк </string>
+    <string name="l1_g1_question2">мост</string>
+    <string name="l1_g1_question3">стихотворение</string>
+    <string name="l1_g1_question4">носки</string>
+    <string name="l1_g1_question5">фамилия</string>
+    <string name="l1_g1_question6">государство </string>
+    <string name="l1_g1_question7">медаль</string>
+    <string name="l1_g1_question8">джинсы </string>
+    <string name="l1_g1_question9">чувство</string>
+    <string name="l1_g1_question10">музей</string>
+    <string name="l1_g1_question11">время </string>
+    <string name="l1_g1_question12">история </string>
+    <string name="l1_g1_question13">дружба </string>
+    <string name="l1_g1_question14">архитектура</string>
+    <string name="l1_g1_question15">слово</string>
+    <string name="l1_g1_question16">поколение </string>
+    <string name="l1_g1_question17">словарь </string>
+    <string name="l1_g1_question18">брюки </string>
+    <string name="l1_g1_question19">проблема </string>
+    <string name="l1_g1_question20">очки </string>
+    <string name="l1_g1_question21">деньги </string>
+    <string name="l1_g1_question22">такси </string>
+    <string name="l1_g1_question23">парк</string>
+    <string name="l1_g1_question24">здание </string>
+    <string name="l1_g1_question25">стол </string>
+    <string name="l1_g1_question26">месяц </string>
+    <string name="l1_g1_question27">язык </string>
+    <string name="l1_g1_question28">страна </string>
+    <string name="l1_g1_question29">часы </string>
+    <string name="l1_g1_question30">школа </string>
+    <string name="l1_g1_question31">ножницы </string>
+    <string name="l1_g1_question32">ученик</string>
+
+</resources>
