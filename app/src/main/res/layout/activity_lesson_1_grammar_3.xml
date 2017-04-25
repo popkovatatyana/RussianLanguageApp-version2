@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_lesson_1_grammar_3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,5 +10,73 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.popkova.russianlanguageapp.Lesson1.Lesson_1_grammar_3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:text="@string/L1grammar3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grammar_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textAlignment="textStart" />
 
+            <TextView
+                android:text="@string/l1_g3_description1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/descriprion1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/l1_g3_t1"
+                android:id="@+id/imageView1" />
+
+
+            <TextView
+                android:text="@string/l1_g3_description2"
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:id="@+id/descriprion2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="@string/l1_g3_description3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriprion3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textAlignment="center" />
+            <TextView
+                android:text="@string/l1_g3_description4"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriprion4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textAlignment="center" />
+
+
+            <Button
+                android:text="Go to practise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:onClick="l1_g3_practise" />
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

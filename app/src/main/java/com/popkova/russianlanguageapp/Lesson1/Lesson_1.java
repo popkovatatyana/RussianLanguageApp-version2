@@ -94,11 +94,11 @@ public class Lesson_1 extends AppCompatActivity {
                     Intent intent = new Intent(Lesson_1.this, Lesson_1_grammar_1.class);
                     startActivity(intent);
                 }
-                if (groupPosition == 0 && childPosition == 1) {
+                if (groupPosition == 1 && childPosition == 1) {
                     Intent intent = new Intent(Lesson_1.this, Lesson_1_grammar_2.class);
                     startActivity(intent);
                 }
-                if (groupPosition == 0 && childPosition == 2) {
+                if (groupPosition == 1 && childPosition == 2) {
                     Intent intent = new Intent(Lesson_1.this, Lesson_1_grammar_3.class);
                     startActivity(intent);
                 }

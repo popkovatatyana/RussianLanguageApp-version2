@@ -8,13 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.popkova.russianlanguageapp.Lesson1.L1_grammar_1_results">
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:id="@+id/L1_G_RESULTS" />
+    tools:context="com.popkova.russianlanguageapp.Lesson1.Lesson_1_grammar_1_results">
 
     <TextView
         android:text="TextView"
@@ -42,6 +36,13 @@
         android:layout_alignEnd="@+id/L1_G_RESULTS"
         android:layout_marginEnd="15dp" />
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/L1_G_RESULTS"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

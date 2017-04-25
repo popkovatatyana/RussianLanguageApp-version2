@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class L1_grammar_1_results extends AppCompatActivity {
+public class Lesson_1_grammar_1_results extends AppCompatActivity {
     private int scoreForAGame = 0;
     UserLocalStore userLocalData;
     @Override

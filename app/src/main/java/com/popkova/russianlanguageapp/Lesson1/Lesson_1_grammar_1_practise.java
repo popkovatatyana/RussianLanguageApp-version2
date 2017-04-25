@@ -51,7 +51,7 @@ public class Lesson_1_grammar_1_practise extends AppCompatActivity {
         EditText l1_g1_answer31 = (EditText)findViewById(R.id.l1_g1_answer31);
         EditText l1_g1_answer32 = (EditText)findViewById(R.id.l1_g1_answer32);
 
-        Intent intent = new Intent(Lesson_1_grammar_1_practise.this, L1_grammar_1_results.class);
+        Intent intent = new Intent(Lesson_1_grammar_1_practise.this, Lesson_1_grammar_1_results.class);
         intent.putExtra("L1G1A0", l1_g1_answer0.getText().toString());
         intent.putExtra("L1G1A1", l1_g1_answer1.getText().toString());
         intent.putExtra("L1G1A2", l1_g1_answer2.getText().toString());

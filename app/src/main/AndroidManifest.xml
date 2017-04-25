@@ -28,13 +28,17 @@
         <activity android:name=".ListActivity" />
         <activity android:name=".Lesson1.Lesson_1" />
         <activity android:name=".Lesson1.Lesson_1_grammar_1" />
-        <activity android:name=".Lesson1.L1_grammar_1_results" />
+        <activity android:name=".Lesson1.Lesson_1_grammar_1_results" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".Lesson1.Lesson_1_vocabulary_1" />
         <activity android:name=".Lesson1.Lesson_1_grammar_2" />
         <activity android:name=".Lesson1.Lesson_1_grammar_3" />
-        <activity android:name=".Lesson1.Lesson_1_grammar_1_practise"></activity>
+        <activity android:name=".Lesson1.Lesson_1_grammar_1_practise" />
+        <activity android:name=".Lesson1.Lesson_1_grammar_2_practise" />
+        <activity android:name=".Lesson1.Lesson_1_grammar_2_results" />
+        <activity android:name=".Lesson1.Lesson_1_grammar_3_practise" />
+        <activity android:name=".Lesson1.Lesson_1_grammar_3_results"></activity>
     </application>
 
 </manifest>
