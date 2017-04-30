@@ -1,5 +1,6 @@
 package com.popkova.russianlanguageapp.Lesson1;
 
+import android.app.DialogFragment;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -88,4 +89,6 @@ public class Lesson_1_grammar_1_practise extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+
 }

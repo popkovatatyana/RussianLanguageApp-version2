@@ -27,8 +27,8 @@
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
-        android:layout_marginEnd="26dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
         android:layout_alignParentEnd="true">
 
         <TableRow android:padding="2dp">
@@ -461,12 +461,13 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
-        <Button
-            android:text="@string/check"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button4"
-            android:onClick="Check_L1_grammar_1"/>
     </TableLayout>
+    <Button
+        android:text="@string/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="Check_L1_grammar_1"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>
 </ScrollView>

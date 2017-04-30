@@ -15,7 +15,7 @@ public class Lesson_1_grammar_3 extends AppCompatActivity {
         setContentView(R.layout.activity_lesson_1_grammar_3);
     }
 
-    public void l1_g2_practise(View view) {
+    public void l1_g3_practise(View view) {
         Intent intent = new Intent (Lesson_1_grammar_3.this, Lesson_1_grammar_3_practise.class);
         startActivity(intent);
     }

@@ -7,30 +7,7 @@
     tools:context=".MainActivity">
 
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/arrow_to_right"
-        android:scaleType="matrix"
-        tools:rotation="270"
-        style="@android:style/Widget.DeviceDefault.ImageButton"
-        android:layout_alignBottom="@+id/pager"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="165dp"
-        android:contentDescription=""
-        app:srcCompat="@android:drawable/arrow_down_float" />
 
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/arrow_to_left"
-        android:scaleType="matrix"
-        tools:rotation="90"
-        style="@android:style/Widget.DeviceDefault.ImageButton"
-        android:layout_alignTop="@+id/arrow_to_right"
-        android:layout_alignParentStart="true"
-        app:srcCompat="@android:drawable/arrow_down_float" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
@@ -50,7 +27,8 @@
         android:layout_alignStart="@+id/pager"
         android:layout_marginBottom="11dp"
         android:layout_toStartOf="@+id/arrow_to_right"
-        android:onClick="Go_to_Lesson1"/>
+        android:onClick="Go_to_Lesson1"
+        android:layout_alignEnd="@+id/pager" />
 
     <TextView
         android:text="@string/topic1"
@@ -61,5 +39,6 @@
         android:id="@+id/textView"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textAlignment="center"
-        android:layout_toStartOf="@+id/arrow_to_right" />
+        android:layout_toStartOf="@+id/arrow_to_right"
+        android:layout_alignEnd="@+id/pager" />
 </RelativeLayout>

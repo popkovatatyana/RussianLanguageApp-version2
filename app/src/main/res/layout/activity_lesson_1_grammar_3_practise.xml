@@ -25,252 +25,358 @@
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
-        android:layout_marginEnd="26dp"
+        android:layout_marginEnd="60dp"
         android:layout_marginTop="80dp"
         android:layout_alignParentEnd="true">
 
         <TableRow android:padding="2dp">
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question0"
+                android:text="@string/l1_g3_first_0"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
                 />
-
-            <EditText android:layout_width="2dp"
+            <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer0"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question0"
+                android:text="@string/l1_g3_second_0"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer1"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question1"
+                android:text="@string/l1_g3_second_1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer2"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question2"
+                android:text="@string/l1_g3_second_2"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer3"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question3"
+                android:text="@string/l1_g3_second_3"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer4"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question4"
+                android:text="@string/l1_g3_second_4"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer5"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question5"
+                android:text="@string/l1_g3_second_5"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer6"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question6"
+                android:text="@string/l1_g3_second_6"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer7"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question7"
+                android:text="@string/l1_g3_second_7"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer8"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question8"
+                android:text="@string/l1_g3_second_8"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer9"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question9"
+                android:text="@string/l1_g3_second_9"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_10"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer10"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question10"
+                android:text="@string/l1_g3_second_10"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer11"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question11"
+                android:text="@string/l1_g3_second_11"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_12"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer12"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question12"
+                android:text="@string/l1_g3_second_12"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_13"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer13"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question13"
+                android:text="@string/l1_g3_second_13"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_14"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer14"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question14"
+                android:text="@string/l1_g3_second_14"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_15"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer15"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question15"
+                android:text="@string/l1_g3_second_15"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_16"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer16"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question16"
+                android:text="@string/l1_g3_second_16"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1_g3_first_17"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="textEnd"
+                />
             <EditText android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g3_answer17"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g3_question17"
+                android:text="@string/l1_g3_second_17"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 />
         </TableRow>
-
-
+        <Button
+            android:text="@string/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:onClick="Check_L1_grammar_3"/>
     </TableLayout>
     </RelativeLayout>
 </ScrollView>
