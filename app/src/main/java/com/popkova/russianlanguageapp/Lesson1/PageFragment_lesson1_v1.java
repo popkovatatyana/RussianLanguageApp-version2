@@ -1,8 +1,5 @@
-package com.popkova.russianlanguageapp;
+package com.popkova.russianlanguageapp.Lesson1;
 
-import android.content.Context;
-import android.graphics.Color;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,17 +8,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.Random;
+import com.popkova.russianlanguageapp.R;
 
 /**
  * Created by User on 23.04.2017.
  */
 
-public class PageFragment extends Fragment {
+public class PageFragment_lesson1_v1 extends Fragment {
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
     String [] Examples = {
             "Привет!",
@@ -88,10 +81,9 @@ public class PageFragment extends Fragment {
 
 
     int pageNumber;
-    int backColor;
 
-    public static PageFragment newInstance(int page) {
-        PageFragment pageFragment = new PageFragment();
+    public static PageFragment_lesson1_v1 newInstance(int page) {
+        PageFragment_lesson1_v1 pageFragment = new PageFragment_lesson1_v1();
         Bundle arguments = new Bundle();
         arguments.putInt(ARGUMENT_PAGE_NUMBER, page);
         pageFragment.setArguments(arguments);

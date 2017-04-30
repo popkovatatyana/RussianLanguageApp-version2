@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson_2_vocabulary_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.popkova.russianlanguageapp.Lesson2.Lesson_2_vocabulary_3">
+    <Button
+        android:text="@string/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pager"
+        android:layout_marginBottom="11dp"
+        android:onClick="Go_to_Lesson3"
+        android:layout_alignEnd="@+id/pager" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/title4"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/textView5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textAlignment="center" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text0"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text1"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text2"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text3"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text4"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text5"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text6"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text7"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l2_v3_text8"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+
+        <ImageView
+            android:layout_width="341dp"
+            android:layout_height="324dp"
+            app:srcCompat="@drawable/l2_v_3"
+            android:id="@+id/imageView7" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/l2_v3_text9"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textStart"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

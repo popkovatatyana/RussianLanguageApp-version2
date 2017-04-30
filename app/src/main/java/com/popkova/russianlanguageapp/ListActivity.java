@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.popkova.russianlanguageapp.Lesson1.Lesson_1;
+import com.popkova.russianlanguageapp.Lesson2.Lesson_2;
 
 public class ListActivity extends android.app.ListActivity {
     final static int number = 10;
@@ -33,9 +34,13 @@ public class ListActivity extends android.app.ListActivity {
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
-        int LessonNumber = position + 1;
-        String className = "Lesson_"+LessonNumber;
-        Intent intent = new Intent( ListActivity.this, Lesson_1.class);
-        startActivity(intent);
+        if (position == 0){
+            Intent intent = new Intent( ListActivity.this, Lesson_1.class);
+            startActivity(intent);
+        }
+        if (position == 1){
+            Intent intent = new Intent( ListActivity.this, Lesson_2.class);
+            startActivity(intent);
+        }
     }
 }

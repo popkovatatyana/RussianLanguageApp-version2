@@ -1,32 +1,30 @@
-package com.popkova.russianlanguageapp.Lesson1;
+package com.popkova.russianlanguageapp.Lesson2;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 
-import com.popkova.russianlanguageapp.MainActivity;
 import com.popkova.russianlanguageapp.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Lesson_1 extends AppCompatActivity {
+public class Lesson_2 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
-    private String[] mVocabulary = new String[]{"Знакомство|Greetings"};
-    private String[] mGrammar = new String[]{"Род|Gender", "Множественное число|Plural number", "Согласование прилагательного|Adjective agreement"};
-
+    private String[] mVocabulary = new String[]{"Моя семья|My Family", "Национальности|Nationalities", "Знакомство|Meeting People"};
+    private String[] mGrammar = new String[]{"Личные местоимения|Personal Pronoun", "Притяжательные местоимения|Possessive Pronouns"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson1);
-        setTitle("Давайте познакомимся!");
+        setContentView(R.layout.activity_lesson_2);
+        setTitle("Моя семья");
+
 
         Map<String, String> map;
         ArrayList<Map<String, String>> groupDataList = new ArrayList<>();
@@ -50,7 +48,7 @@ public class Lesson_1 extends AppCompatActivity {
         // заполняем список атрибутов для каждого элемента
         for (String vocabulary : mVocabulary) {
             map = new HashMap<>();
-            map.put("Grammar", vocabulary); // название месяца
+            map.put("Grammar", vocabulary); // название
             сhildDataItemList.add(map);
         }
         // добавляем в коллекцию коллекций
@@ -86,39 +84,27 @@ public class Lesson_1 extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
                 if (groupPosition == 0 && childPosition == 0) {
-                    Intent intent = new Intent(Lesson_1.this, Lesson_1_vocabulary_1.class);
+                    Intent intent = new Intent(Lesson_2.this, Lesson_2_vocabulary_1.class);
+                    startActivity(intent);
+                }
+                if (groupPosition == 0 && childPosition == 1) {
+                    Intent intent = new Intent(Lesson_2.this, Lesson_2_vocabulary_2.class);
+                    startActivity(intent);
+                }
+                if (groupPosition == 0 && childPosition == 2) {
+                    Intent intent = new Intent(Lesson_2.this, Lesson_2_vocabulary_3.class);
                     startActivity(intent);
                 }
                 if (groupPosition == 1 && childPosition == 0) {
-                    Intent intent = new Intent(Lesson_1.this, Lesson_1_grammar_1.class);
+                    Intent intent = new Intent(Lesson_2.this, Lesson_2_grammar_1.class);
                     startActivity(intent);
                 }
-                if (groupPosition == 1 && childPosition == 1) {
-                    Intent intent = new Intent(Lesson_1.this, Lesson_1_grammar_2.class);
-                    startActivity(intent);
-                }
-                if (groupPosition == 1 && childPosition == 2) {
-                    Intent intent = new Intent(Lesson_1.this, Lesson_1_grammar_3.class);
-                    startActivity(intent);
-                }
-
-
+//                if (groupPosition == 1 && childPosition == 1) {
+//                    Intent intent = new Intent(Lesson_2.this, Lesson_2_grammar_2.class);
+//                    startActivity(intent);
+//                }
                 return false;
             }
         });
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        if (id == R.id.action_main_page) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
 }
-

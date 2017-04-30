@@ -1,4 +1,4 @@
-package com.popkova.russianlanguageapp.Lesson1;
+package com.popkova.russianlanguageapp.Lesson2;
 
 import android.content.Intent;
 import android.support.v4.app.Fragment;
@@ -11,22 +11,23 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.popkova.russianlanguageapp.Lesson1.Lesson_1;
+import com.popkova.russianlanguageapp.Lesson1.PageFragment_lesson1_v1;
 import com.popkova.russianlanguageapp.R;
 
-public class Lesson_1_vocabulary_1 extends FragmentActivity {
-
+public class Lesson_2_vocabulary_1 extends FragmentActivity {
     static final String TAG = "myLogs";
-    static final int PAGE_COUNT = 18;
+    static final int PAGE_COUNT = 19;
 
     ViewPager pager;
     PagerAdapter pagerAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson_1_vocabulary_1);
+        setContentView(R.layout.activity_lesson_2_vocabulary_1);
+
         pager = (ViewPager) findViewById(R.id.pager);
-        pagerAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
+        pagerAdapter = new Lesson_2_vocabulary_1.MyFragmentPagerAdapter(getSupportFragmentManager());
         pager.setAdapter(pagerAdapter);
 
         pager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -45,9 +46,7 @@ public class Lesson_1_vocabulary_1 extends FragmentActivity {
             public void onPageScrollStateChanged(int state) {
             }
         });
-
     }
-
 
     private class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 
@@ -57,7 +56,7 @@ public class Lesson_1_vocabulary_1 extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return PageFragment_lesson1_v1.newInstance(position);
+            return PageFragment_lesson2_v1.newInstance(position);
         }
 
         @Override
@@ -67,8 +66,8 @@ public class Lesson_1_vocabulary_1 extends FragmentActivity {
 
     }
 
-    public void Go_to_Lesson1(View view) {
-        Intent intent =  new Intent(Lesson_1_vocabulary_1.this, Lesson_1.class);
+    public void Go_to_Lesson2(View view) {
+        Intent intent =  new Intent(Lesson_2_vocabulary_1.this, Lesson_2.class);
         startActivity(intent);
     }
 }

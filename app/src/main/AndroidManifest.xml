@@ -38,7 +38,16 @@
         <activity android:name=".Lesson1.Lesson_1_grammar_2_practise" />
         <activity android:name=".Lesson1.Lesson_1_grammar_2_results" />
         <activity android:name=".Lesson1.Lesson_1_grammar_3_practise" />
-        <activity android:name=".Lesson1.Lesson_1_grammar_3_results"></activity>
+        <activity android:name=".Lesson1.Lesson_1_grammar_3_results" />
+        <activity android:name=".Lesson2.Lesson_2" />
+        <activity android:name=".Lesson2.Lesson_2_vocabulary_1" />
+        <activity android:name=".Lesson2.Lesson_2_vocabulary_2" />
+        <activity android:name=".Lesson2.Lesson_2_vocabulary_3" />
+        <activity android:name=".Lesson2.Lesson_2_grammar_1"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_1_practise"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_1_results">
+
+        </activity>
     </application>
 
 </manifest>

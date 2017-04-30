@@ -20,4 +20,5 @@ public class Lesson_1_grammar_1 extends AppCompatActivity {
         Intent intent = new Intent(Lesson_1_grammar_1.this, Lesson_1_grammar_1_practise.class);
         startActivity(intent);
     }
+
 }

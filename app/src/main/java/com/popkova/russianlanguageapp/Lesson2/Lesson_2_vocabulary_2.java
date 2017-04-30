@@ -1,32 +1,31 @@
-package com.popkova.russianlanguageapp.Lesson1;
+package com.popkova.russianlanguageapp.Lesson2;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
 import com.popkova.russianlanguageapp.R;
 
-public class Lesson_1_vocabulary_1 extends FragmentActivity {
-
+public class Lesson_2_vocabulary_2 extends FragmentActivity {
     static final String TAG = "myLogs";
-    static final int PAGE_COUNT = 18;
+    static final int PAGE_COUNT = 9;
 
     ViewPager pager;
     PagerAdapter pagerAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson_1_vocabulary_1);
+        setContentView(R.layout.activity_lesson_2_vocabulary_2);
+
         pager = (ViewPager) findViewById(R.id.pager);
-        pagerAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
+        pagerAdapter = new Lesson_2_vocabulary_2.MyFragmentPagerAdapter(getSupportFragmentManager());
         pager.setAdapter(pagerAdapter);
 
         pager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -45,9 +44,7 @@ public class Lesson_1_vocabulary_1 extends FragmentActivity {
             public void onPageScrollStateChanged(int state) {
             }
         });
-
     }
-
 
     private class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 
@@ -57,7 +54,7 @@ public class Lesson_1_vocabulary_1 extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return PageFragment_lesson1_v1.newInstance(position);
+            return PageFragment_lesson2_v2.newInstance(position);
         }
 
         @Override
@@ -67,8 +64,8 @@ public class Lesson_1_vocabulary_1 extends FragmentActivity {
 
     }
 
-    public void Go_to_Lesson1(View view) {
-        Intent intent =  new Intent(Lesson_1_vocabulary_1.this, Lesson_1.class);
+    public void Go_to_Lesson2(View view) {
+        Intent intent =  new Intent(Lesson_2_vocabulary_2.this, Lesson_2.class);
         startActivity(intent);
     }
 }

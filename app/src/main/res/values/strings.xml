@@ -148,6 +148,42 @@
     <string name="correct_answers_1">Mistakes</string>
     <string name="see_errors_1">mistakes</string>
     <string name="ok">Ok</string>
+    <string name="topic2">Моя семья</string>
+    <string name="topic3">Национальности</string>
+    <string name="l2_v3_text0">﻿- Привет! Как тебя зовут?</string>
+    <string name="l2_v3_text1">- Привет, меня зовут Катя, а тебя?</string>
+    <string name="l2_v3_text2">- Максим, очень приятно.</string>
+    <string name="l2_v3_text3">- Откуда ты, Максим?</string>
+    <string name="l2_v3_text4">- Я из России, я учусь в Москве. </string>
+    <string name="l2_v3_text5">- Я из Испании. Сколько тебе лет? </string>
+    <string name="l2_v3_text6">- Мне двадцать, а тебе?</string>
+    <string name="l2_v3_text7">- Мне восемнадцать. </string>
+    <string name="l2_v3_text8">- Приятно познакомиться! </string>
+    <string name="title4">Знакомство</string>
+    <string name="l2_v3_text9">- Взаимно!</string>
+    <string name="L2grammar1_title">Personal Pronouns: Subject and Object Forms.</string>
+    <string name="l2_g1_description1">*The neutral pronoun оно has the same object form as masculine pronoun его.</string>
+    <string name="l2_g1_task1">Supply the missing subject forms of personal pronouns.</string>
+    <string name="l2_g1_first_0">﻿Меня зовут Екатерина. </string>
+    <string name="l2_g1_second_0"> русская. </string>
+    <string name="l2_g1_first_1">Его зовут Харуко. </string>
+    <string name="l2_g1_second_1"> японец. </string>
+    <string name="l2_g1_first_2">Как тебя зовут? </string>
+    <string name="l2_g1_second_2"> студентка? </string>
+    <string name="l2_g1_first_3">Марина учительница. </string>
+    <string name="l2_g1_second_3"> очень добрая. </string>
+    <string name="l2_g1_first_4">Их зовут Мэри и Джон. </string>
+    <string name="l2_g1_second_4"> из Америки.</string>
+    <string name="l2_g1_first_5">Как их зовут? </string>
+    <string name="l2_g1_second_5"> веселые! </string>
+    <string name="l2_g1_first_6"></string>
+    <string name="l2_g1_second_6"> учимся в университете. </string>
+    <string name="l2_g1_first_7">Как Вас зовут? </string>
+    <string name="l2_g1_second_7"> откуда?</string>
+    <string name="l2_g1_first_8"> - Здравствуйте, </string>
+    <string name="l2_g1_second_8"> Таня. – Здравствуй, Таня. Очень приятно. Я Игорь. </string>
+    <string name="l2_g1_first_9">Я и мои родители из Германии. </string>
+    <string name="l2_g1_second_9"> немцы. </string>
 
 
 </resources>
