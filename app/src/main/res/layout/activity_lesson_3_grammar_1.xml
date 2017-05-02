@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson_1_grammar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.popkova.russianlanguageapp.Lesson1.Lesson_1_grammar_1">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/L3grammar1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grammar_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:text="@string/l3_g1_description1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/descriprion1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:text="@string/l3_g1_description2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+        <TextView
+            android:text="@string/l3_g1_description3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+        <TextView
+            android:text="@string/l3_g1_description4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+        <TextView
+            android:text="@string/l3_g1_description5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:text="@string/l3_g1_description6"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:text="@string/l3_g1_description7"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:text="@string/l3_g1_description8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriprion3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+        <TextView
+            android:text="@string/l3_g1_description9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:text="@string/l3_g1_description10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="normal|italic"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

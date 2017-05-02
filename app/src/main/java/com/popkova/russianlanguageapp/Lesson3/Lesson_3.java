@@ -1,30 +1,32 @@
-package com.popkova.russianlanguageapp.Lesson2;
+package com.popkova.russianlanguageapp.Lesson3;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 
+import com.popkova.russianlanguageapp.MainActivity;
 import com.popkova.russianlanguageapp.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Lesson_2 extends AppCompatActivity {
+public class Lesson_3 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
-    private String[] mVocabulary = new String[]{"Моя семья|My Family", "Национальности|Nationalities", "Знакомство|Meeting People"};
-    private String[] mGrammar = new String[]{"Личные местоимения|Personal Pronoun", "Притяжательные местоимения|Possessive Pronouns"};
+    private String[] mVocabulary = new String[]{"Предметы вокруг|Things Around Me"};
+    private String[] mGrammar = new String[]{"Местоимение 'это'|Pointing Things", "Местоимения 'то' и 'этот'|Contrasting Similar Items", "Я говорю по-русски|Talking About Languages"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson_2);
-        setTitle("Моя семья");
-
+        setContentView(R.layout.activity_lesson_3);
+        setTitle("Давайте познакомимся!");
 
         Map<String, String> map;
         ArrayList<Map<String, String>> groupDataList = new ArrayList<>();
@@ -48,7 +50,7 @@ public class Lesson_2 extends AppCompatActivity {
         // заполняем список атрибутов для каждого элемента
         for (String vocabulary : mVocabulary) {
             map = new HashMap<>();
-            map.put("Grammar", vocabulary); // название
+            map.put("Grammar", vocabulary); // название месяца
             сhildDataItemList.add(map);
         }
         // добавляем в коллекцию коллекций
@@ -84,27 +86,28 @@ public class Lesson_2 extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
                 if (groupPosition == 0 && childPosition == 0) {
-                    Intent intent = new Intent(Lesson_2.this, Lesson_2_vocabulary_1.class);
-                    startActivity(intent);
-                }
-                if (groupPosition == 0 && childPosition == 1) {
-                    Intent intent = new Intent(Lesson_2.this, Lesson_2_vocabulary_2.class);
-                    startActivity(intent);
-                }
-                if (groupPosition == 0 && childPosition == 2) {
-                    Intent intent = new Intent(Lesson_2.this, Lesson_2_vocabulary_3.class);
+                    Intent intent = new Intent(Lesson_3.this, Lesson_3_vocabulary_1.class);
                     startActivity(intent);
                 }
                 if (groupPosition == 1 && childPosition == 0) {
-                    Intent intent = new Intent(Lesson_2.this, Lesson_2_grammar_1.class);
+                    Intent intent = new Intent(Lesson_3.this, Lesson_3_grammar_1.class);
                     startActivity(intent);
                 }
                 if (groupPosition == 1 && childPosition == 1) {
-                    Intent intent = new Intent(Lesson_2.this, Lesson_2_grammar_2.class);
+                    Intent intent = new Intent(Lesson_3.this, Lesson_3_grammar_2.class);
                     startActivity(intent);
                 }
+                if (groupPosition == 1 && childPosition == 2) {
+                    Intent intent = new Intent(Lesson_3.this, Lesson_3_grammar_3.class);
+                    startActivity(intent);
+                }
+
+
                 return false;
             }
         });
     }
+
+
 }
+

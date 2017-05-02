@@ -44,8 +44,22 @@
         <activity android:name=".Lesson2.Lesson_2_vocabulary_2" />
         <activity android:name=".Lesson2.Lesson_2_vocabulary_3" />
         <activity android:name=".Lesson2.Lesson_2_grammar_1"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_2"/>
         <activity android:name=".Lesson2.Lesson_2_grammar_1_practise"/>
-        <activity android:name=".Lesson2.Lesson_2_grammar_1_results">
+        <activity android:name=".Lesson2.Lesson_2_grammar_1_results"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_3_practise"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_3_results"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_2_practise"/>
+        <activity android:name=".Lesson3.Lesson_3"/>
+        <activity android:name=".Lesson3.Lesson_3_vocabulary_1"/>
+        <activity android:name=".Lesson3.Lesson_3_grammar_1"/>
+        <activity android:name=".Lesson3.Lesson_3_grammar_2"/>
+        <activity android:name=".Lesson3.Lesson_3_grammar_3"/>
+        <activity android:name=".Lesson3.Lesson_3_grammar_2_practise"/>
+        <activity android:name=".Lesson3.Lesson_3_grammar_3_practise"/>
+        <activity android:name=".Lesson3.Lesson_3_grammar_2_results"/>
+        <activity android:name=".Lesson3.Lesson_3_grammar_3_results"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_2_results">
 
         </activity>
     </application>

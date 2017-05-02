@@ -48,13 +48,22 @@
     </ScrollView>
 
     <Button
-        android:text="Go to practise"
+        android:text="Go to practise object form of personal pronoun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="l2_g1_practise_2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Go to practise subject form of personal pronoun"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
         android:onClick="l2_g1_practise"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
+        android:layout_above="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp" />
 
 </RelativeLayout>
