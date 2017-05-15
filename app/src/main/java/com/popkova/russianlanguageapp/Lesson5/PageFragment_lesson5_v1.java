@@ -1,4 +1,4 @@
-package com.popkova.russianlanguageapp.Lesson3;
+package com.popkova.russianlanguageapp.Lesson5;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,55 +14,50 @@ import com.popkova.russianlanguageapp.R;
  * Created by User on 23.04.2017.
  */
 
-public class PageFragment_lesson3_v1 extends Fragment {
+public class PageFragment_lesson5_v1 extends Fragment {
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
     String [] Examples = {
-            "книга ",
-            "газета",
-            "учебник",
-            "компьютер",
-            "мобильник",
-            "радио ",
-            "телевизор",
-            "велосипед",
-            "машина",
-            "кошка",
-            "собака",
-            "девушка",
-            "юноша",
-            "белый",
-            "голубой",
-            "желтый",
-            "зеленый",
-            "красный",
-            "синий",
-            "чёрный"
-
+            "Европа",
+            "Азия",
+            "Африка",
+            "Австралия ",
+            "Южная Америка ",
+            "Северная Америка",
+            "север",
+            "юг",
+            "запад",
+            "восток ",
+            "страна",
+            "самолет",
+            "поезд",
+            "корабль ",
+            "путешествие ",
+            "билет ",
+            "паспорт ",
+            "рейс "
     };
 
     String [] Examples_translation = {
-            "book",
-            "newspaper",
-            "textbook",
-            "computer",
-            "cell phone",
-            "radio",
-            "television",
-            "bicycle",
-            "car",
-            "cat",
-            "dog",
-            "girl, young woman",
-            "boy, young man",
-            "white ",
-            "light blue ",
-            "yellow ",
-            "green",
-            "red",
-            "blue ",
-            "black "
-
+            "Europe",
+            "Asia ",
+            "Africa",
+            "Australia",
+            "South America",
+            "North America ",
+            "North ",
+            "South",
+            "West",
+            "East",
+            "country",
+            "plane",
+            "train",
+            "ship ",
+            "trip ",
+            "ticket",
+            "passport ",
+            "flight "
     };
+
     int [] images = {
             R.drawable.l3_1,
             R.drawable.l3_2,
@@ -82,16 +77,14 @@ public class PageFragment_lesson3_v1 extends Fragment {
             R.drawable.l3_16,
             R.drawable.l3_17,
             R.drawable.l3_18,
-            R.drawable.l3_19,
-            R.drawable.l3_20
     };
 
 
 
     int pageNumber;
 
-    public static PageFragment_lesson3_v1 newInstance(int page) {
-        PageFragment_lesson3_v1 pageFragment = new PageFragment_lesson3_v1();
+    public static PageFragment_lesson5_v1 newInstance(int page) {
+        PageFragment_lesson5_v1 pageFragment = new PageFragment_lesson5_v1();
         Bundle arguments = new Bundle();
         arguments.putInt(ARGUMENT_PAGE_NUMBER, page);
         pageFragment.setArguments(arguments);

@@ -9,6 +9,9 @@ import android.widget.ListView;
 import com.popkova.russianlanguageapp.Lesson1.Lesson_1;
 import com.popkova.russianlanguageapp.Lesson2.Lesson_2;
 import com.popkova.russianlanguageapp.Lesson3.Lesson_3;
+import com.popkova.russianlanguageapp.Lesson4.Lesson_4;
+import com.popkova.russianlanguageapp.Lesson5.Lesson_5;
+import com.popkova.russianlanguageapp.Lesson6.Lesson_6;
 
 public class ListActivity extends android.app.ListActivity {
     final static int number = 10;
@@ -45,6 +48,18 @@ public class ListActivity extends android.app.ListActivity {
         }
         if (position == 2){
             Intent intent = new Intent( ListActivity.this, Lesson_3.class);
+            startActivity(intent);
+        }
+        if (position == 3){
+            Intent intent = new Intent( ListActivity.this, Lesson_4.class);
+            startActivity(intent);
+        }
+        if (position == 4){
+            Intent intent = new Intent( ListActivity.this, Lesson_5.class);
+            startActivity(intent);
+        }
+        if (position == 5){
+            Intent intent = new Intent( ListActivity.this, Lesson_6.class);
             startActivity(intent);
         }
     }

@@ -59,7 +59,26 @@
         <activity android:name=".Lesson3.Lesson_3_grammar_3_practise"/>
         <activity android:name=".Lesson3.Lesson_3_grammar_2_results"/>
         <activity android:name=".Lesson3.Lesson_3_grammar_3_results"/>
-        <activity android:name=".Lesson2.Lesson_2_grammar_2_results">
+        <activity android:name=".Lesson4.Lesson_4"/>
+        <activity android:name=".Lesson4.Lesson_4_vocabulary_1"/>
+        <activity android:name=".Lesson4.Lesson_4_grammar_1"/>
+        <activity android:name=".Lesson4.Lesson_4_grammar_1_practise"/>
+        <activity android:name=".Lesson4.Lesson_4_grammar_1_results"/>
+        <activity android:name=".Lesson2.Lesson_2_grammar_2_results"/>
+        <activity android:name=".Lesson5.Lesson_5"/>
+        <activity android:name=".Lesson5.Lesson_5_vocabulary_1"/>
+        <activity android:name=".Lesson5.Lesson_5_grammar_1"/>
+        <activity android:name=".Lesson5.Lesson_5_grammar_1_practise"/>
+        <activity android:name=".Lesson5.Lesson_5_grammar_1_results"/>
+        <activity android:name=".Lesson5.Lesson_5_grammar_2"/>
+        <activity android:name=".Lesson5.Lesson_5_grammar_2_practise"/>
+        <activity android:name=".Lesson5.Lesson_5_grammar_2_results"/>
+        <activity android:name=".Lesson6.Lesson_6"/>
+        <activity android:name=".Lesson6.Lesson_6_vocabulary_1"/>
+        <activity android:name=".Lesson6.Lesson_6_grammar_1"/>
+        <activity android:name=".Lesson6.Lesson_6_grammar_1_practise"/>
+        <activity android:name=".Lesson6.Lesson_6_grammar_1_results">
+
 
         </activity>
     </application>

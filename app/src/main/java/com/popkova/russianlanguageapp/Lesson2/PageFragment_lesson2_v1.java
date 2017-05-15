@@ -62,25 +62,25 @@ public class PageFragment_lesson2_v1  extends Fragment{
             "cousin (male)"
     };
     int [] images = {
-            R.drawable.l1_1,
-            R.drawable.l1_2,
-            R.drawable.l1_3,
-            R.drawable.l1_4,
-            R.drawable.l1_5,
-            R.drawable.l1_6,
-            R.drawable.l1_7,
-            R.drawable.l1_8,
-            R.drawable.l1_9,
-            R.drawable.l1_10,
-            R.drawable.l1_11,
-            R.drawable.l1_12,
-            R.drawable.l1_13,
-            R.drawable.l1_14,
-            R.drawable.l1_15,
-            R.drawable.l1_16,
-            R.drawable.l1_17,
-            R.drawable.l1_18,
-            R.drawable.l1_18
+            R.drawable.l2_1,
+            R.drawable.l2_2,
+            R.drawable.l2_3,
+            R.drawable.l2_4,
+            R.drawable.l2_5,
+            R.drawable.l2_6,
+            R.drawable.l2_7,
+            R.drawable.l2_8,
+            R.drawable.l2_9,
+            R.drawable.l2_10,
+            R.drawable.l2_11,
+            R.drawable.l2_12,
+            R.drawable.l2_13,
+            R.drawable.l2_14,
+            R.drawable.l2_15,
+            R.drawable.l2_16,
+            R.drawable.l2_17,
+            R.drawable.l2_18,
+            R.drawable.l2_19
     };
 
 

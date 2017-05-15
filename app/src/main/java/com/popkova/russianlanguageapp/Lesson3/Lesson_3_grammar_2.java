@@ -12,7 +12,7 @@ public class Lesson_3_grammar_2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson_1_grammar_2);
+        setContentView(R.layout.activity_lesson_3_grammar_2);
     }
 
     public void l3_g2_practise(View view) {

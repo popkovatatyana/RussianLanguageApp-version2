@@ -18,50 +18,25 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
             <TextView
-                android:text="@string/L1grammar2_title"
+                android:text="@string/L5grammar1_title"
                 android:layout_width="wrap_content"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:id="@+id/grammar_title"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:textAlignment="textStart" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/l1_g2_t1"
-                android:id="@+id/imageView1" />
-
             <TextView
-                android:text="@string/l1_g2_description1"
+                android:text="@string/l5_g1_description1"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:id="@+id/descriprion2"
-                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_height="match_parent" />
+
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/l1_g2_t2"
-                android:id="@+id/imageView2" />
+                android:layout_height="600dp"
+                app:srcCompat="@drawable/l5_g1_t1"/>
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/l1_g2_t3"
-                android:id="@+id/imageView3" />
-
-            <TextView
-                android:text="@string/l1_g2_description3"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:id="@+id/descriprion3"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/l1_g2_t4"
-                android:id="@+id/imageView4" />
 
             <Button
                 android:text="Go to practise"
@@ -70,7 +45,7 @@
                 android:id="@+id/button3"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
-                android:onClick="l1_g2_practise"/>
+                android:onClick="l5_g1_practise"/>
 
         </LinearLayout>
     </ScrollView>

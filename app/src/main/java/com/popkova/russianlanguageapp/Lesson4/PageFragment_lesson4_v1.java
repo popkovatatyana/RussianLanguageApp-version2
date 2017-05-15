@@ -1,4 +1,4 @@
-package com.popkova.russianlanguageapp.Lesson3;
+package com.popkova.russianlanguageapp.Lesson4;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,54 +14,53 @@ import com.popkova.russianlanguageapp.R;
  * Created by User on 23.04.2017.
  */
 
-public class PageFragment_lesson3_v1 extends Fragment {
+public class PageFragment_lesson4_v1 extends Fragment {
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
     String [] Examples = {
-            "книга ",
-            "газета",
-            "учебник",
-            "компьютер",
-            "мобильник",
-            "радио ",
-            "телевизор",
-            "велосипед",
-            "машина",
-            "кошка",
-            "собака",
-            "девушка",
-            "юноша",
-            "белый",
-            "голубой",
-            "желтый",
-            "зеленый",
-            "красный",
-            "синий",
-            "чёрный"
+            "аптека",
+            "банк",
+            "библиотека",
+            "больница",
+            "город",
+            "гостиница",
+            "дом",
+            "кафе",
+            "кинотеатр",
+            "магазин",
+            "метро",
+            "музей",
+            "парк",
+            "почта",
+            "театр",
+            "улица",
+            "супермаркет ",
+            "университет",
+            "церковь",
+            "школа"
 
     };
 
     String [] Examples_translation = {
-            "book",
-            "newspaper",
-            "textbook",
-            "computer",
-            "cell phone",
-            "radio",
-            "television",
-            "bicycle",
-            "car",
-            "cat",
-            "dog",
-            "girl, young woman",
-            "boy, young man",
-            "white ",
-            "light blue ",
-            "yellow ",
-            "green",
-            "red",
-            "blue ",
-            "black "
-
+            "drugstore",
+            "bank ",
+            "library",
+            "hospital",
+            "city",
+            "hotel",
+            "house",
+            "café",
+            "cinema ",
+            "shop",
+            "underground",
+            "museum ",
+            "park",
+            "post office ",
+            "theater",
+            "street ",
+            "supermarket ",
+            "university ",
+            "church ",
+            "school"
     };
     int [] images = {
             R.drawable.l3_1,
@@ -90,8 +89,8 @@ public class PageFragment_lesson3_v1 extends Fragment {
 
     int pageNumber;
 
-    public static PageFragment_lesson3_v1 newInstance(int page) {
-        PageFragment_lesson3_v1 pageFragment = new PageFragment_lesson3_v1();
+    public static PageFragment_lesson4_v1 newInstance(int page) {
+        PageFragment_lesson4_v1 pageFragment = new PageFragment_lesson4_v1();
         Bundle arguments = new Bundle();
         arguments.putInt(ARGUMENT_PAGE_NUMBER, page);
         pageFragment.setArguments(arguments);

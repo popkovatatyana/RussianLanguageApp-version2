@@ -41,15 +41,16 @@ public class PageFragment_lesson2_v2 extends Fragment{
             "Russia – Russian (m, f, Pl)"
     };
     int [] images = {
-            R.drawable.l1_1,
-            R.drawable.l1_2,
-            R.drawable.l1_3,
-            R.drawable.l1_4,
-            R.drawable.l1_5,
-            R.drawable.l1_6,
-            R.drawable.l1_7,
-            R.drawable.l1_8,
-            R.drawable.l1_9,
+            R.drawable.l2_2_1,
+            R.drawable.l2_2_2,
+            R.drawable.l2_2_3,
+            R.drawable.l2_2_4,
+            R.drawable.l2_2_5,
+            R.drawable.l2_2_6,
+            R.drawable.l2_2_7,
+            R.drawable.l2_2_8,
+            R.drawable.l2_2_9
+
     };
 
 
