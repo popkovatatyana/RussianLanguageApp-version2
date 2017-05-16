@@ -372,5 +372,54 @@
     <string name="l6_g1_description1">The direct object of а Russian sentence is in the accusative case.</string>
     <string name="l6_g1_description2">The following endings apply to inanimate nouns.</string>
     <string name="l6_g1_description3">The following endings apply to animate nouns.</string>
+    <string name="topic7">Мой день</string>
+    <string name="L7grammar1_title">Frequency Adverbs.</string>
+    <string name="l7_g1_description1">There are Russian frequency adverbs represented here.</string>
+    <string name="l7_g1_task1">Writhe a correct frequency adverb according to the sense.</string>
+    <string name="l7_g1_first_0_0">1. Мама готовит каждый день = </string>
+    <string name="l7_g1_first_0">мама готовит </string>
+    <string name="l7_g1_first_1_0">2. Я хожу в кино раз в год = </string>
+    <string name="l7_g1_first_1">я хожу в кино </string>
+    <string name="l7_g1_second_1"></string>
+    <string name="l7_g1_first_2_0">3. Обычно мы гуляем с друзьями редко,</string>
+    <string name="l7_g1_first_2">но летом мы гуляем </string>
+    <string name="l7_g1_first_3">4. Я не знаю этого преподавателя. Я </string>
+    <string name="l7_g1_second_3"> его не видела.</string>
+    <string name="l7_g1_first_4">5. Девушкам </string>
+    <string name="l7_g1_second_4"> дарят цветы. </string>
+    <string name="l7_g1_first_5_0">6. Я хожу в университет пять дней в неделю = </string>
+    <string name="l7_g1_first_5">я хожу в университет </string>
+    <string name="l7_g1_first_6">7. Я не ем мясо = Я </string>
+    <string name="l7_g1_second_6"> не ем мясо.</string>
+    <string name="l7_g1_first_7">8. Я не ем мясо = Я </string>
+    <string name="l7_g1_second_7"> ем только овощи. </string>
+    <string name="l7_g1_first_8_0">9. Валерия почти никогда не опаздывает</string>
+    <string name="l7_g1_first_8">Валерия опаздывает </string>
+    <string name="l7_g1_first_9">10. Вечером я делаю уроки = Вечером </string>
+    <string name="l7_g1_second_9"> я делаю уроки. </string>
+    <string name="L7grammar2_title">Past Tense of Verbs.</string>
+    <string name="l7_g2_description4">Watch out! There are several irregular forms which you need to learn.</string>
+    <string name="l7_g2_task1">Write the correct form of verb in past tense form.</string>
+    <string name="l7_g2_first_0">Вова (смотреть) </string>
+    <string name="l7_g2_second_0"> телевизор.</string>
+    <string name="l7_g2_first_1">Дети (играть) </string>
+    <string name="l7_g2_second_1"> в саду.</string>
+    <string name="l7_g2_first_2">Бабушка (готовить) </string>
+    <string name="l7_g2_second_2"> суп.</string>
+    <string name="l7_g2_first_3">Катя (сидеть) </string>
+    <string name="l7_g2_second_3"> в интернете. </string>
+    <string name="l7_g2_first_4">Ребята (делать) </string>
+    <string name="l7_g2_second_4"> уроки.</string>
+    <string name="l7_g2_first_5">Люди (гулять) </string>
+    <string name="l7_g2_second_5"> в парке. </string>
+    <string name="l7_g2_first_6">Мой друг (слушать) </string>
+    <string name="l7_g2_second_6"> музыку.</string>
+    <string name="l7_g2_first_7">Девушка (читать) </string>
+    <string name="l7_g2_second_7"> газету.</string>
+    <string name="l7_g2_first_8">Мама (идти) </string>
+    <string name="l7_g2_second_8"> в магазин.</string>
+    <string name="l7_g2_first_9">Актер (играть) </string>
+    <string name="l7_g2_second_9"> в фильме.</string>
+
 </resources>
 

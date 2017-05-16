@@ -12,6 +12,7 @@ import com.popkova.russianlanguageapp.Lesson3.Lesson_3;
 import com.popkova.russianlanguageapp.Lesson4.Lesson_4;
 import com.popkova.russianlanguageapp.Lesson5.Lesson_5;
 import com.popkova.russianlanguageapp.Lesson6.Lesson_6;
+import com.popkova.russianlanguageapp.Lesson7.Lesson_7;
 
 public class ListActivity extends android.app.ListActivity {
     final static int number = 10;
@@ -60,6 +61,10 @@ public class ListActivity extends android.app.ListActivity {
         }
         if (position == 5){
             Intent intent = new Intent( ListActivity.this, Lesson_6.class);
+            startActivity(intent);
+        }
+        if (position == 6){
+            Intent intent = new Intent( ListActivity.this, Lesson_7.class);
             startActivity(intent);
         }
     }
