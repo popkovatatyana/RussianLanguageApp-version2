@@ -1,4 +1,4 @@
-package com.popkova.russianlanguageapp.Lesson7;
+package com.popkova.russianlanguageapp.Lesson8;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,18 +13,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Lesson_7 extends AppCompatActivity {
+public class Lesson_8 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
-    private String[] mVocabulary = new String[]{"Мой день|My day"};
-    private String[] mGrammar = new String[]{ "Частотные наречия|Frequency adverbs", "Прошедшее время|Past tense" };
+    private String[] mVocabulary = new String[]{"Хобби|Hobby"};
+    private String[] mGrammar = new String[]{ "Родительный падеж|Genitive case", "Наречия степени|Adverbs of Degree" };
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson_7);
-        setTitle("Мой день");
+        setContentView(R.layout.activity_lesson_8);
+        setTitle("Хобби");
 
         Map<String, String> map;
         ArrayList<Map<String, String>> groupDataList = new ArrayList<>();
@@ -84,15 +84,15 @@ public class Lesson_7 extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
                 if (groupPosition == 0 && childPosition == 0) {
-                    Intent intent = new Intent(Lesson_7.this, Lesson_7_vocabulary_1.class);
+                    Intent intent = new Intent(Lesson_8.this, Lesson_8_vocabulary_1.class);
                     startActivity(intent);
                 }
                 if (groupPosition == 1 && childPosition == 0) {
-                    Intent intent = new Intent(Lesson_7.this, Lesson_7_grammar_1.class);
+                    Intent intent = new Intent(Lesson_8.this, Lesson_8_grammar_1.class);
                     startActivity(intent);
                 }
                 if (groupPosition == 1 && childPosition == 1) {
-                    Intent intent = new Intent(Lesson_7.this, Lesson_7_grammar_2.class);
+                    Intent intent = new Intent(Lesson_8.this, Lesson_8_grammar_2.class);
                     startActivity(intent);
                 }
 

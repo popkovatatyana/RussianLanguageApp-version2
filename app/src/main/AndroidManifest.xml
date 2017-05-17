@@ -85,7 +85,15 @@
         <activity android:name=".Lesson7.Lesson_7_grammar_1_results"/>
         <activity android:name=".Lesson7.Lesson_7_grammar_2"/>
         <activity android:name=".Lesson7.Lesson_7_grammar_2_practise"/>
-        <activity android:name=".Lesson7.Lesson_7_grammar_2_results">
+        <activity android:name=".Lesson7.Lesson_7_grammar_2_results"/>
+        <activity android:name=".Lesson8.Lesson_8"/>
+        <activity android:name=".Lesson8.Lesson_8_vocabulary_1"/>
+        <activity android:name=".Lesson8.Lesson_8_grammar_1"/>
+        <activity android:name=".Lesson8.Lesson_8_grammar_1_practise"/>
+        <activity android:name=".Lesson8.Lesson_8_grammar_1_results"/>
+        <activity android:name=".Lesson8.Lesson_8_grammar_2"/>
+        <activity android:name=".Lesson8.Lesson_8_grammar_2_practise"/>
+        <activity android:name=".Lesson8.Lesson_8_grammar_2_results">
 
 
         </activity>
