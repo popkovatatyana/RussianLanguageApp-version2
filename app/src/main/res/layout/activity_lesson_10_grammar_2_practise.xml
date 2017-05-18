@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/l10_g2_task1"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer0"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer1"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer2"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer3"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer4"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer5"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer6"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer7"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer8"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_first_9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+            <EditText android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/l10_g2_answer9"
+                android:textAlignment="textStart"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l10_g2_second_9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </TableRow>
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/check"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button4"
+        android:onClick="Check_L10_grammar_2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+</ScrollView>
+
